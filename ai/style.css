@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+
+
+.nav-link {
+    color: #011724 !important;
+}
+
+img {
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+body {
+    background-color: rgb(183, 255, 255);
+    font-family: 'Montserrat', sans-serif;
+    color: #1a252c;
+    /* Глибокий темно-синій для ідеального контрасту */
+    line-height: 1.6;
+
+
+}
+
+.navbar {
+    background-color: rgb(183, 255, 255);
+}
+
+/* Головний заголовок сторінки */
+h1 {
+    font-size: 2.8rem;
+    font-weight: 800;
+    color: #0b1b28;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border-bottom: 4px solid #00a896;
+    /* Технологічна лінія акценту */
+    padding-bottom: 10px;
+}
+
+/* Заголовки секцій */
+h2 {
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #0f3443;
+    margin-top: 40px;
+    margin-bottom: 15px;
+
+}
+
+/* Абзаци тексту */
+p {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+    color: #2c3e50;
+}
+
+.my-li {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 25px;
+}
+
+.my-li li {
+  font-size: 1.1rem;
+  position: relative;
+  padding-left: 25px;
+  margin-bottom: 12px;
+  color: #2c3e50;
+  transition: transform 0.2s ease;
+}
+
+/* Стрілка перед текстом */
+.my-li li::before {
+  content: "›"; 
+  position: absolute;
+  left: 5px;
+  top: -2px;
+  font-size: 1.6rem;
+  line-height: 1;
+  color: #00a896; /* Бірюзовий акцент */
+  font-weight: bold;
+}
+
+/* Ефект при наведенні курсору */
+.my-li li:hover {
+  transform: translateX(5px); /* Список м'яко зсувається вбік */
+}
+.active{
+    border-bottom: 1px solid #011724 ;
+}
+
+
+.more-jpt {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  color: #00f2fe; /* Яскравий бірюзовий колір */
+  font-weight: 600;
+  text-decoration: none;
+  padding: 4px 8px;
+  border: 1px solid rgba(0, 242, 254, 0.3);
+  border-radius: 4px;
+  background: rgba(1, 31, 32, 0.788);
+  transition: all 0.3s ease;
+}
+
+.more-jpt:hover {
+  color: #fff;
+  background: #00f2fe;
+  box-shadow: 0 0 15px rgba(0, 242, 254, 0.6); /* Ефект світіння */
+  transform: translateY(-1px);
+}
